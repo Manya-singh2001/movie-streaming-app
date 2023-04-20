@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/movie-streaming-app/static/css/main.801d4759.css",
-    "main.js": "/movie-streaming-app/static/js/main.c46e2f86.js",
-    "index.html": "/movie-streaming-app/index.html",
-    "main.801d4759.css.map": "/movie-streaming-app/static/css/main.801d4759.css.map",
-    "main.c46e2f86.js.map": "/movie-streaming-app/static/js/main.c46e2f86.js.map"
+    "main.css": "/static/css/main.801d4759.css",
+    "main.js": "/static/js/main.7fbca313.js",
+    "index.html": "/index.html",
+    "main.801d4759.css.map": "/static/css/main.801d4759.css.map",
+    "main.7fbca313.js.map": "/static/js/main.7fbca313.js.map"
   },
   "entrypoints": [
     "static/css/main.801d4759.css",
-    "static/js/main.c46e2f86.js"
+    "static/js/main.7fbca313.js"
   ]
 }
