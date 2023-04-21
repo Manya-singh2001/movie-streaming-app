@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Manya-singh2001.github.io/",
+  "homepage": "https://Manya-singh2001.github.io/movie-streaming-app",
   "name": "movie-streaming-app",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": " react-scripts start",
+    "start": "PUBLIC_URL=/ react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

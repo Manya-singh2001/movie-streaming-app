@@ -22,7 +22,7 @@ const handleLogout = async () => {
       </Link>
      {user?.email ? 
       <div>
-      <Link to = '/account' >
+      <Link to = '/movie-streaming-app/account' >
       <button className='text-white pr-4'>Account</button>
       </Link>
       
@@ -32,10 +32,10 @@ const handleLogout = async () => {
         
     </div> :
      <div>
-     <Link to = '/login' >
+     <Link to = '/movie-streaming-app/login' >
      <button className='text-white pr-4'>Sign In</button>
      </Link>
-     <Link to = '/signUp' >
+     <Link to = '/movie-streaming-app/signUp' >
      <button className='bg-red-600 px-6 py-2 rounded cursor-pointer text-white'>
        Sign Up
        </button>

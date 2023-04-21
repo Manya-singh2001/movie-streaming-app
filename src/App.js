@@ -14,16 +14,16 @@ function App() {
       <AuthContextProvider>
       <Navbar />
       <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signUp" element={<SignUp />} />
-        <Route path="/account" element={
+        <Route path="/movie-streaming-app/home" element={<Home />} />
+        <Route path="/movie-streaming-app/login" element={<Login />} />
+        <Route path="/movie-streaming-app/signUp" element={<SignUp />} />
+        <Route path="/movie-streaming-app/account" element={
         <ProtectedRoute> 
           
           <Account />
           </ProtectedRoute> } />
           
-          <Route exaxt path='/' element={ <Navigate to="/home" /> }/>
+          <Route exaxt path='/' element={ <Navigate to="/movie-streaming-app/home" /> }/>
       </Routes>
       </AuthContextProvider>
      
